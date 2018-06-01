@@ -1,0 +1,18 @@
+Started GET "/" for ::1 at 2018-05-31 19:37:35 -0400
+Processing by PagesController#homepage as HTML
+Completed 500 Internal Server Error in 100ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::MissingTemplate (Missing template pages/homepage, application/homepage with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :coffee, :jbuilder]}. Searched in:
+  * "C:/Users/marou/ExampleApp/app/views"
+):
+  
+app/controllers/pages_controller.rb:4:in `homepage'
+Started GET "/" for ::1 at 2018-05-31 19:43:26 -0400
+Processing by PagesController#homepage as HTML
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 14ms (Views: 8.3ms | ActiveRecord: 0.0ms)
+
+
